@@ -1,0 +1,51 @@
+/*Generales*/
+
+:root {
+    --let: #fffeff;
+    --verdeo:#28a247 ;
+    --verdec: #96c83f;
+    --footer1: #1d3645;
+    --footer2: #1f506e;
+    --fondo: #353b41;
+    --fondo-pagar: #cde4ff
+  }
+  * {
+    font-family: 'Lato', sans-serif;
+    padding: 0%;
+    margin: 0%;
+  }
+
+@media screen and (max-width: 250px){
+    
+}
+
+/*NAV*/
+
+.clase-nav{
+    background-color: var(--fondo);
+    color: var(--let) ;
+    
+}
+.color-link{
+  color: var(--verdec);
+}
+
+.clase-footer{
+  background: linear-gradient(90deg, rgba(29,54,69,1) 0%, rgba(29,54,69,1) 0%, rgba(31,80,110,1) 100%);}
+
+  .clase-boton{
+  background-color: var(--verdec);
+
+}
+.btn-custom-success{
+  background-color: var(--verdec) !important;
+  color: var(--let) !important;
+}
+
+.custom-link {
+  color: var(--let) !important;
+}
+.clase-pago{
+  background-color: var(--fondo-pagar)!important;
+
+}
